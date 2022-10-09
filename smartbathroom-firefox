@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Shell script to launch firefox and show the Smartbathroom Threatre Dashboard
+
+export MOZ_ENABLE_WAYLAND=1
+
+/usr/bin/firefox -kiosk -private-window "http://localhost:8081/#/dashboard/theater?kioskMode=true&sessionId=vkz4X1Xlk1P3H8ym4lQOWdCO9tOckRpD"
